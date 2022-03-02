@@ -28,6 +28,13 @@ class SimpleForm extends Component {
                        {
                         id: 'intro-user1',
                         user: true,
+                        validator: (value) => {
+                            if(value == '' || value == undefined) {
+                                return "Please enter something";
+                            }else {
+                                return true;
+                            }
+                        },
                         trigger: 'loop',
                        },
                        {
