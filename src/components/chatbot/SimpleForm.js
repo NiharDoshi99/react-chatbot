@@ -17,6 +17,7 @@ class SimpleForm extends Component {
                 userDelay='600'
                 botDelay='500'
                 cache
+                headerTitle='Chat with Chatty bot'
                 enableMobileAutoFocus
                 steps={[
                     {
